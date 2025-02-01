@@ -2143,7 +2143,7 @@ function create_if_block_6(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div, "class", "playlist svelte-lfvp58");
+			attr(div, "class", "playlist svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -2291,10 +2291,10 @@ function create_each_block_1(ctx) {
 		h() {
 			attr(span0, "class", "track-title");
 			attr(span1, "class", "track-artist");
-			attr(button0, "class", "track-play svelte-lfvp58");
-			attr(button1, "class", "track-remove svelte-lfvp58");
+			attr(button0, "class", "track-play svelte-12ezmk7");
+			attr(button1, "class", "track-remove svelte-12ezmk7");
 			attr(button1, "aria-label", "Remove from playlist");
-			attr(div, "class", "track svelte-lfvp58");
+			attr(div, "class", "track svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -2436,15 +2436,15 @@ function create_if_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(button0, "class", "close-btn svelte-lfvp58");
+			attr(button0, "class", "close-btn svelte-12ezmk7");
 			attr(button0, "aria-label", "Close search");
 			attr(input, "type", "text");
 			attr(input, "placeholder", "Enter search query...");
-			attr(input, "class", "svelte-lfvp58");
-			attr(button1, "class", "svelte-lfvp58");
-			attr(div0, "class", "search-input svelte-lfvp58");
-			attr(div1, "class", "modal-content svelte-lfvp58");
-			attr(div2, "class", "modal svelte-lfvp58");
+			attr(input, "class", "svelte-12ezmk7");
+			attr(button1, "class", "svelte-12ezmk7");
+			attr(div0, "class", "search-input svelte-12ezmk7");
+			attr(div1, "class", "modal-content svelte-12ezmk7");
+			attr(div2, "class", "modal svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -2621,7 +2621,7 @@ function create_if_block_3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(ul, "class", "search-results svelte-lfvp58");
+			attr(ul, "class", "search-results svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, ul, anchor);
@@ -2793,9 +2793,9 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(button, "class", "add-to-playlist svelte-lfvp58");
+			attr(button, "class", "add-to-playlist svelte-12ezmk7");
 			attr(button, "aria-label", "Add to playlist");
-			attr(li, "class", "search-result-item svelte-lfvp58");
+			attr(li, "class", "search-result-item svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -2862,7 +2862,7 @@ function create_if_block_4(ctx) {
 			this.h();
 		},
 		h() {
-			attr(button, "class", "load-more svelte-lfvp58");
+			attr(button, "class", "load-more svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, button, anchor);
@@ -2958,15 +2958,15 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(button0, "class", "close-btn svelte-lfvp58");
+			attr(button0, "class", "close-btn svelte-12ezmk7");
 			attr(button0, "aria-label", "Close API key input");
 			attr(input, "type", "text");
 			attr(input, "placeholder", "Enter your YouTube API key...");
-			attr(input, "class", "svelte-lfvp58");
-			attr(button1, "class", "svelte-lfvp58");
-			attr(div0, "class", "api-key-input svelte-lfvp58");
-			attr(div1, "class", "modal-content svelte-lfvp58");
-			attr(div2, "class", "modal svelte-lfvp58");
+			attr(input, "class", "svelte-12ezmk7");
+			attr(button1, "class", "svelte-12ezmk7");
+			attr(div0, "class", "api-key-input svelte-12ezmk7");
+			attr(div1, "class", "modal-content svelte-12ezmk7");
+			attr(div2, "class", "modal svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -3252,27 +3252,27 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(button0, "class", "icon-btn svelte-lfvp58");
+			attr(button0, "class", "icon-btn svelte-12ezmk7");
 			attr(button0, "aria-label", "Open search");
-			attr(button1, "class", "icon-btn svelte-lfvp58");
+			attr(button1, "class", "icon-btn svelte-12ezmk7");
 			attr(button1, "aria-label", "Set API key");
-			attr(button2, "class", "icon-btn svelte-lfvp58");
+			attr(button2, "class", "icon-btn svelte-12ezmk7");
 			attr(button2, "aria-label", "Toggle playlist");
-			attr(div0, "class", "header svelte-lfvp58");
-			attr(h1, "class", "title svelte-lfvp58");
+			attr(div0, "class", "header svelte-12ezmk7");
+			attr(h1, "class", "title svelte-12ezmk7");
 			attr(div1, "id", "youtube-player");
-			attr(div2, "class", "progress svelte-lfvp58");
+			attr(div2, "class", "progress svelte-12ezmk7");
 			set_style(div2, "width", /*currentTime*/ ctx[1] / /*duration*/ ctx[2] * 100 + "%");
-			attr(div3, "class", "progress-bar svelte-lfvp58");
+			attr(div3, "class", "progress-bar svelte-12ezmk7");
 			attr(path0, "d", "M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z");
 			attr(svg0, "width", "24");
 			attr(svg0, "height", "24");
 			attr(svg0, "viewBox", "0 0 24 24");
 			attr(svg0, "fill", "none");
 			attr(svg0, "stroke", "currentColor");
-			attr(button3, "class", "control-btn svelte-lfvp58");
+			attr(button3, "class", "control-btn svelte-12ezmk7");
 			attr(button3, "aria-label", "Previous");
-			attr(button4, "class", "control-btn play svelte-lfvp58");
+			attr(button4, "class", "control-btn play svelte-12ezmk7");
 			attr(button4, "aria-label", button4_aria_label_value = /*isPlaying*/ ctx[3] ? 'Pause' : 'Play');
 			attr(path1, "d", "M8.59 7.41L10 6l6 6-6 6-1.41-1.41L13.17 12z");
 			attr(svg1, "width", "24");
@@ -3280,18 +3280,18 @@ function create_fragment(ctx) {
 			attr(svg1, "viewBox", "0 0 24 24");
 			attr(svg1, "fill", "none");
 			attr(svg1, "stroke", "currentColor");
-			attr(button5, "class", "control-btn svelte-lfvp58");
+			attr(button5, "class", "control-btn svelte-12ezmk7");
 			attr(button5, "aria-label", "Next");
-			attr(div4, "class", "buttons svelte-lfvp58");
-			attr(div5, "class", "time svelte-lfvp58");
+			attr(div4, "class", "buttons svelte-12ezmk7");
+			attr(div5, "class", "time svelte-12ezmk7");
 			attr(input, "type", "range");
 			attr(input, "min", "0");
 			attr(input, "max", "100");
 			attr(input, "aria-label", "Volume");
-			attr(input, "class", "svelte-lfvp58");
-			attr(div6, "class", "volume-control svelte-lfvp58");
-			attr(div7, "class", "controls svelte-lfvp58");
-			attr(div8, "class", "music-player svelte-lfvp58");
+			attr(input, "class", "svelte-12ezmk7");
+			attr(div6, "class", "volume-control svelte-12ezmk7");
+			attr(div7, "class", "controls svelte-12ezmk7");
+			attr(div8, "class", "music-player svelte-12ezmk7");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div8, anchor);
